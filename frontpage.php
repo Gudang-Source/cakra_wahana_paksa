@@ -38,8 +38,8 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-	<section class="header">
+<body id="frontpage">
+	<section class="header"-->
 		<div class="title"><?php require("name.php"); ?></div>
 	</section>
 	<div id="page" class="clearfix">
