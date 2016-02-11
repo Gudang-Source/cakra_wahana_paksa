@@ -1,9 +1,6 @@
 <?php
-	require_once("fpsubmission.php");
 	//pre-declared variables in fpsubmission.php ==> $dbhost, $dbuser, $dbpass, $dbname, $usertbl, $error, $fname, $lname, $email, $gender
-	$em = "1@yahoo.com";
-	//$em = $_POST['email'];
-
+	$em = $_POST['email'];
 	$conn = mysql_connect($dbhost, $dbuser, $dbpass);
 	if(! $conn )
 	{

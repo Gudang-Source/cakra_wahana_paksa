@@ -17,11 +17,11 @@
 	{
 		if($_POST['action'] == 'login')
 		{
-			require_once("fplisubmission.php");
+			require("fplisubmission.php");
 		}
 		elseif($_POST['action'] == 'signup')
 		{
-			require_once("fpsusubmission.php");
+			require("fpsusubmission.php");
 		}
 		
 		if(!$error)

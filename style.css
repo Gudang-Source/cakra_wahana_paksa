@@ -1,22 +1,19 @@
-body,
 html{
+	height: 100%;	
+}
+
+.body {
 	height: 100%;
+	background: url("img/background_poster.png");
+	background-size: cover;
 }
 
 img{
 	width:400px;
 }
 
-section{
-	height: 280px;
-	width: 100%;
-    /*background-image:url('img/student.jpg');*/
-    background-repeat:no-repeat;
-    background-size:100%;
-}
-
 .title {
-	/*margin-top: -300px;*/
+	margin-top: 75px;
 	font-size: 50px;
 	color: black;
 	text-align: center;
@@ -43,4 +40,8 @@ section{
 #frontpage{
 	background-color: Teal;
 	background-size: cover;
+}
+
+.natal{
+	width: 100%;
 }

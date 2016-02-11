@@ -9,7 +9,7 @@
 	echo('<input type="radio" name="gender" value="Male" required>Male');
 	echo('</label>');
 	echo('<label class="radio-inline">');
-	echo('  <input  type="radio" name="gender" value="Female" required>Female<br>');
+	echo('<input type="radio" name="gender" value="Female" required>Female<br>');
 	echo('</label>');
 	echo('</div>');
 	echo('<input class="btn btn-primary" type="submit" value="Sign Up">');

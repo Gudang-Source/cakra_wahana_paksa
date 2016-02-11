@@ -37,14 +37,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 </head>
-<body id="frontpage">
+<body id="frontpage" class="body">
 	<section class="header"-->
 		<div class="title"><?php require("name.php"); ?></div>
 	</section>
 	<div id="page" class="clearfix">
 		<div class="col-md-4">
-			<img src="img/logo_cwp.jpg">
+			<img src="img/logo1_alll_2px_rev.png">
 		</div>
 
 	    <div id="content" class="col-md-4" style="text-align:center">
@@ -61,7 +62,7 @@
 			</form>
 		</div>
 		<div class="col-md-4">
-			<img src="img/logo_cwp_rev.jpg">
+			<img src="img/logo1_alll_2px.png">
 		</div>
 	</div> 
 </body>

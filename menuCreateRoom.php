@@ -50,18 +50,19 @@
 	<script type="text/javascript">
 		parent.history.pushState(null, null, "?menu=create");
 	</script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body style="background:transparent;">
 	<div id="createRoomContent" style="text-align:center">
 		<form class="form" id="createRoomForm" name="createForm" action="<?php $_PHP_SELF ?>" method="post">
 			<input type="hidden" name="roomemail">
-			<input class="inputbox" type="text" name="roomname" placeholder="Room Name" required><br>
-			<input class="inputbox" type="password" name="password" placeholder="Password (Optional)"><br>
-			<input class="inputButton" id="submitCreateButton" type="submit" value="Create">
+			<input class="form-control" type="text" name="roomname" placeholder="Room Name" required><br>
+			<input class="form-control" type="password" name="password" placeholder="Password (Optional)"><br>
+			<input class="btn btn-primary" id="submitCreateButton" type="submit" value="Create">
 		</form>
 		<script type="text/javascript">
 			document.getElementById('createRoomForm')['roomemail'].value = parent.document.getElementById('roomDataForm')['email'].value;
-		</script>
 		</script>
 	</div>
 </body>
